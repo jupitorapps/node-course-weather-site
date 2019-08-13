@@ -8,7 +8,7 @@ const forecast = require('./utils/forecast.js')
 const app = express()
 const port = process.env.PORT || 3000 //setup port heroku || local
 //define paths for Express config
-const pubicDirectoryPath = path.join(__dirname, '../web-server/public')
+const pubicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
 //console.log(__dirname) //get the current directory
